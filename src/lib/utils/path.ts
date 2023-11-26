@@ -1,7 +1,6 @@
 const base = "/portfolio-site";
 
 export const path = (path: string) => {
-  // pathが/から始まっていなかったら追加する
   if (!path.startsWith("/")) {
     path = `/${path}`;
   }
