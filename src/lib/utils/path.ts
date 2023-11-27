@@ -1,4 +1,4 @@
-const base = "/portfolio-site";
+export const base = "/portfolio-site";
 
 export const path = (path: string) => {
   if (!path.startsWith("/")) {
