@@ -13,7 +13,7 @@ export const nav_list_items: NavType[] = [
   },
   {
     path: "",
-    title: "",
-    publish: false,
+    title: "WORK",
+    publish: true,
   },
 ];
