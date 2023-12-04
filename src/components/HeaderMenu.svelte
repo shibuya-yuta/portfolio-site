@@ -136,7 +136,7 @@
 
         & .nav-list-item {
           color: #fff;
-          font-family: var(--title-font);
+          font-family: var(--main-font);
 
           & .nav-link {
             display: block;

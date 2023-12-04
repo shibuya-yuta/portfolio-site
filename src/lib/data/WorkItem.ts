@@ -1,0 +1,60 @@
+import type { WorkItemType } from "@lib/types/WorkItem";
+
+export const work_list_items: WorkItemType[] = [
+  {
+    path: "festa25-main",
+    title: "第25回神大フェスタ 公式サイト",
+    description: "",
+    development_tyle: 2,
+    thumbnail: "",
+    publish: true,
+  },
+  {
+    path: "festa25-teaser",
+    title: "第25回神大フェスタ 公式サイト",
+    description: "",
+    development_tyle: 2,
+    thumbnail: "",
+    publish: true,
+  },
+  {
+    path: "festa25-shinkan",
+    title: "神大フェスタ 新歓サイト",
+    description: "",
+    development_tyle: 2,
+    thumbnail: "",
+    publish: true,
+  },
+  {
+    path: "calculator",
+    title: "電卓",
+    description: "",
+    development_tyle: 1,
+    thumbnail: "",
+    publish: true,
+  },
+  {
+    path: "memorandum",
+    title: "メモ帳",
+    description: "",
+    development_tyle: 1,
+    thumbnail: "",
+    publish: true,
+  },
+  {
+    path: "ox-game",
+    title: "ox-ゲーム",
+    description: "",
+    development_tyle: 1,
+    thumbnail: "",
+    publish: true,
+  },
+  {
+    path: "reversi",
+    title: "Reversi",
+    description: "",
+    development_tyle: 1,
+    thumbnail: "",
+    publish: true,
+  },
+];

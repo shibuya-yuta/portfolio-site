@@ -1,0 +1,35 @@
+---
+import { GetWorkItem } from "@lib/utils/GetWorkItem";
+
+const WorkItemList = GetWorkItem();
+---
+
+<section class="work-wrapper">
+  <h1 class="title">Work</h1>
+  <div></div>
+</section>
+
+<style lang="scss">
+  .work-wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: calc(var(--header-height) + 60px) auto 0;
+    padding: 0 10px;
+
+    .title {
+      font-size: 2rem;
+      font-family: var(--main-font);
+      font-weight: bolder;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        margin-top: 5px;
+        height: 4px;
+        background: -webkit-linear-gradient(to right, var(--main-color), #000);
+        background: linear-gradient(to right, var(--main-color), #000);
+      }
+    }
+  }
+</style>
