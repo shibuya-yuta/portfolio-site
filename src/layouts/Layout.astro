@@ -1,6 +1,8 @@
 ---
 import HeaderMenu from "@components/HeaderMenu.svelte";
+import Footer from "@components/Footer.astro";
 import { path } from "@lib/utils/path";
+import { ViewTransitions } from "astro:transitions";
 
 interface Props {
   title?: string;
@@ -43,28 +45,28 @@ const { title = "PORTFOILO SITE of SHIBUYA" } = Astro.props;
     />
 
     <title>{title}</title>
+    <ViewTransitions />
   </head>
 
   <body>
     <HeaderMenu client:only="svelte" />
     <slot />
-  </body>
+    <Footer />
+  </body><style is:global lang="scss">
+    :root {
+      --base-color-black: rgba(0, 0, 0, 1);
+      --base-color-white: rgba(255, 255, 255, 1);
+      --main-color: rgba(46, 212, 230, 1);
+      --accent-color: rgba(255, 227, 21, 1);
+      --header-height: 76px;
+      --title-font: "Potta One", sans-serif;
+      --main-font: "Noto Serif JP", serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
 </html>
-
-<style is:global lang="scss">
-  :root {
-    --base-color-black: rgba(0, 0, 0, 1);
-    --base-color-white: rgba(255, 255, 255, 1);
-    --main-color: rgba(46, 212, 230, 1);
-    --accent-color: rgba(255, 227, 21, 1);
-    --header-height: 76px;
-    --title-font: "Potta One", sans-serif;
-    --main-font: "Noto Serif JP", serif;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-</style>

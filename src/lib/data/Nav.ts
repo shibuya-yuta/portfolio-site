@@ -9,37 +9,37 @@ export const nav_list_items: NavType[] = [
   // WORK --------------------
   {
     path: "festa25-main",
-    title: "festa25-main",
-    publish: true,
+    title: "第25回神大フェスタ 本番サイト",
+    publish: false,
   },
   {
     path: "festa25-teaser",
-    title: "festa25-teaser",
-    publish: true,
+    title: "第25回神大フェスタ 募集サイト",
+    publish: false,
   },
   {
     path: "festa25-shinkan",
-    title: "festa25-shinkan",
-    publish: true,
+    title: "神大フェスタ 新歓サイト",
+    publish: false,
   },
   {
     path: "calculator",
-    title: "calculator",
-    publish: true,
+    title: "電卓",
+    publish: false,
   },
   {
     path: "memorandum",
-    title: "memoradum",
-    publish: true,
+    title: "メモ帳",
+    publish: false,
   },
   {
     path: "ox-game",
     title: "ox-game",
-    publish: true,
+    publish: false,
   },
   {
     path: "reversi",
     title: "reversi",
-    publish: true,
+    publish: false,
   },
 ];

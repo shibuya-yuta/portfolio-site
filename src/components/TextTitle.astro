@@ -1,0 +1,24 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<div>
+  <h1 class="title">{title}</h1>
+</div>
+
+<style lang="scss">
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--main-font);
+    padding: 0.25em 0.5em;
+    color: #000;
+    background: transparent;
+    border-left: solid 5px var(--main-color);
+    margin-bottom: 15px;
+  }
+</style>
