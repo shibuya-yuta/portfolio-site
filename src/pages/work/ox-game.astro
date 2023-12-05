@@ -8,20 +8,29 @@ import { path } from "@lib/utils/path";
 
 <Layout>
   <Container>
-    <HeadingTitle title="第25回神大フェスタ 公式サイト" />
+    <HeadingTitle title="ox-gameサイト" />
     <article class="article">
-      <img class="main-img" src={path("assets/festa25-main.png")} alt="" />
+      <img class="main-img" src={path("assets/ox-game.png")} alt="" />
       <div class="text">
-        <TextTitle title="サイト概要" />
+        <TextTitle title="概要" />
         <p>
-          2020年11月に開催された、神奈川大学横浜キャンパスの大学祭「第22回神大フェスタ」の公式サイトです。
-          オンライン開催につき、団体の企画を掲載したり景品がもらえるクイズをおこなったりしました。
-          サイトのデザイン（イラスト除く）の一部とコーディング、クイズなどのバックエンドの実装を行いました。
+          短時間で勝敗がつくゲームが欲しいと思い開発しました。<br
+          />一対一で5×5のoxゲームをプレイすることが出来ます。<br />
+           機能：対戦終了時の勝敗判定、押し間違え時の一手戻るボダン、対戦終了時のリセット
         </p>
         <TextTitle title="使用技術" />
-        <p>Nuxt.js</p>
+        <p>
+          - html<br />
+           - css<br />
+           - javascript
+        </p>
         <TextTitle title="リンク" />
-        <p>[第22回神大フェスタ公式サイト](https://jindaifesta.com/22/)</p>
+        <p>
+          ox-gameサイト
+          <a href="https://yuta-shibuya-sy.github.io/ox-games/" target="_blank"
+            >[https://yuta-shibuya-sy.github.io/ox-games/]</a
+          >
+        </p>
       </div>
     </article>
   </Container>

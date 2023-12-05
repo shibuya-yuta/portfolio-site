@@ -8,20 +8,31 @@ import { path } from "@lib/utils/path";
 
 <Layout>
   <Container>
-    <HeadingTitle title="第25回神大フェスタ 公式サイト" />
+    <HeadingTitle title="メモ帳サイト" />
     <article class="article">
-      <img class="main-img" src={path("assets/festa25-main.png")} alt="" />
+      <img class="main-img" src={path("assets/memorandum.png")} alt="" />
       <div class="text">
-        <TextTitle title="サイト概要" />
+        <TextTitle title="概要" />
         <p>
-          2020年11月に開催された、神奈川大学横浜キャンパスの大学祭「第22回神大フェスタ」の公式サイトです。
-          オンライン開催につき、団体の企画を掲載したり景品がもらえるクイズをおこなったりしました。
-          サイトのデザイン（イラスト除く）の一部とコーディング、クイズなどのバックエンドの実装を行いました。
+          課題忘れなどの防止のために開発しました。<br
+          />課題、期限を入力しデータとして保存することが出来ます。<br />
+           機能：課題の削除、期限が近いと色で教えてくれます。<br />
+           ※デプロイのためにAstro.jsに移行した際、追加した課題にstyleがあたらなくなりました。直し方わかっていません。
         </p>
         <TextTitle title="使用技術" />
-        <p>Nuxt.js</p>
+        <p>
+          - html<br />
+           - css<br />
+           - javascript
+        </p>
         <TextTitle title="リンク" />
-        <p>[第22回神大フェスタ公式サイト](https://jindaifesta.com/22/)</p>
+        <p>
+          メモ帳サイト
+          <a
+            href="https://yuta-shibuya-sy.github.io/memorandum/"
+            target="_blank">[https://yuta-shibuya-sy.github.io/memorandum/]</a
+          >
+        </p>
       </div>
     </article>
   </Container>
