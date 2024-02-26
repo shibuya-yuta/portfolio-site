@@ -30,7 +30,7 @@ export const nav_list_items: NavType[] = [
   {
     path: "memorandum",
     title: "メモ帳",
-    publish: false,
+    publish: true,
   },
   {
     path: "ox-game",
