@@ -43,7 +43,7 @@ export const work_list_items: WorkItemType[] = [
       "仕事・課題などのToDoをデータとして残して置けるメモサイトです。",
     development_tyle: 1,
     thumbnail: "memorandum.png",
-    publish: true,
+    publish: false,
   },
   {
     path: "ox-game",
